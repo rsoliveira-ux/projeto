@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 30, 30);
+    color:white;
+    text-align: center;
+}
+
+
+header {
+    background-color: rgb(14, 13, 13);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+   
+header h1 {
+    color:white;
+    margin: 0;
+   
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color:white;
+}
+
+header a {
+    position: absolute;
+    right: 0;
+    margin: 1rem 1rem 0;
+    
+}
+
+
+.btn-pedido {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-pedido:hover {
+    background-color: #218838;
+    transform: translateY(-3px);
+}
+
+
+
+.Pasteis-da-casa { 
+    float: left; 
+    margin: 20px;
+    padding: 20px;
+    width: 200px; 
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px black; 
+}
+
+.Pasteis-da-casa h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color:black;
+    margin-bottom: 15px;
+}
+
+.Pasteis-da-casa img {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px black;
+    transition: transform 0.3s ease;
+    display: block; 
+    margin: 0 auto; 
+    width: 150px;
+    height: auto;
+}
+
+section {
+    float: left; 
+    margin: 20px;
+    padding: 20px;
+    width: 180px;  
+    background-color: rgb(10, 10, 10); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px black; 
+    position: relative;
+    left: -38px;
+    bottom: -40px;
+}
+
+section h2{
+    color: white;
+    background-color: rgb(240, 185, 6);
+}
+
+section h3{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -50px;
+}
+
+section h5{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -50px;
+    bottom: 20px;
+}
+
+section p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+    bottom: 29px;
+
+}
+
+section ul{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+    bottom: 67px;
+}
+
+article {
+    float: left; 
+    margin: 20px;
+    padding: 20px;
+    width: 180px;  
+    background-color: rgb(10, 10, 10); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px black; 
+    position: relative;
+    left: 500px;
+    bottom: 950px;
+
+}
+
+article h2{
+    color: white;
+    background-color: rgb(240, 185, 6);
+}
+
+article h3{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -50px;
+}
+
+article p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+    bottom: 29px;
+
+}
+
+
+
+footer {
+    margin-top: 900px;
+    padding: 10px 0;
+    background-color: #f3f2ef;
+    color:rgb(8, 8, 8);
+    font-size: 0.9em;
+    }
+
+footer p{
+        position: relative;
+        right: 90px;
+    }
+
+footer h2{
+    position: relative;
+    right: 90px;
+}
